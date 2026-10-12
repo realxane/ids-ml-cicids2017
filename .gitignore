@@ -1,0 +1,12 @@
+```text
+# Ignorer le lourd dataset
+CIC-IDS2017/
+*.csv
+*.parquet
+
+# Ignorer les caches Python
+__pycache__/
+*.pyc
+
+# Ignorer le dossier d'export si les modèles sont trop gros (optionnel)
+# export/
