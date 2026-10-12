@@ -10,7 +10,7 @@ st.set_page_config(page_title="SOC Dashboard - IDS", page_icon="🛡️", layout
 st.title("🛡️ Dashboard SOC : Détection d'Intrusion ML")
 st.markdown("Interface de supervision en temps réel connectée à l'API FastAPI (Random Forest).")
 
-# URL de ton API locale
+# URL de l'API locale
 API_URL = "http://127.0.0.1:8000/predict"
 
 # Initialisation des variables de session pour l'historique
